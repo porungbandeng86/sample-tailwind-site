@@ -8,15 +8,16 @@ import Slack from '../../public/assets/Slack.svg';
 import Truspilot from '../../public/assets/Trustpilot.svg';
 import Cnn from '../../public/assets/CNN.svg';
 import Clutch from '../../public/assets/Clutch.svg';
+import { Button } from './ui/button';
 
 const Hero = () => {
   return (
     <div className="pt-4 lg:pt-10">
       <div className="px-[20px] lg:px-[280px]">
-        <h1 className="text-center text-2xl  font-medium text-[#172026] lg:text-4xl xl:text-[64px] xl:leading-[72px]">
+        <h1 className="text-center text-2xl font-medium text-foreground lg:text-4xl xl:text-[64px] xl:leading-[72px]">
           Start monitoring your website like a pro
         </h1>
-        <p className="text-center pt-6 text-[#36485C] text-sm lg:text-[18px] lg:leading-7">
+        <p className="text-center pt-6 text-muted-foreground text-sm lg:text-[18px] lg:leading-7">
           Get a birds eye view with our customizable dashboard. Stay on top of
           things! Revamp your work process with our game-changing feature. Boost
           productivity and efficiency!
@@ -24,15 +25,20 @@ const Hero = () => {
 
         {/* buttons */}
         <div className="flex w-full pt-8 pb-8 justify-center gap-x-6 text-xs md:text-sm lg:text-base ">
-          <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
+          <Button
+            className="w-1/2 h-[60px] px-8 rounded-[4px] lg:w-fit text-white bg-[#4328EB] hover:bg-[#4328EB]/90 text-xs md:text-sm lg:text-base"
+            size="lg"
+          >
             Try for free
-          </button>
-          <button className="w-1/2 text-[#4328EB] flex items-center justify-center gap-x-2 lg:w-fit">
+          </Button>
+          <Button
+            variant="outline"
+            className="w-1/2 h-[60px] px-8 rounded-[4px] lg:w-fit hover:bg-accent hover:text-accent-foreground text-xs md:text-sm lg:text-base"
+            size="lg"
+          >
             View Pricing
-            <span>
-              <Image src={BlurArrow} alt="Learn more" />
-            </span>
-          </button>
+            <Image src={BlurArrow} alt="Learn more" className="ml-2" />
+          </Button>
         </div>
       </div>
 

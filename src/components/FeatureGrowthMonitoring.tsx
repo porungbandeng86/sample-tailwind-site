@@ -15,7 +15,7 @@ const FeatureGrowthMonitoring = () => {
         <h3 className="font-medium text-[#EB2891] lg:text-[18px] ">
           Growth Monitoring
         </h3>
-        <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+        <h1 className="pt-[12px] text-2xl font-medium  lg:text-[42px] lg:leading-[58px]">
           Monitor your sites new subscribers
         </h1>
         <Image
@@ -23,7 +23,7 @@ const FeatureGrowthMonitoring = () => {
           alt="feature 1 image"
           className="pt-[24px] sm:hidden"
         />
-        <p className="py-[24px] text-[#36485C] lg:text-[18px]">
+        <p className="py-[24px] text-muted-foreground  lg:text-[18px]">
           Stay on top of things and revamp your work process with our
           game-changing feature. Get a birds eye view with our customizable
           dashboard.
@@ -32,11 +32,11 @@ const FeatureGrowthMonitoring = () => {
         <div className="flex w-full gap-x-[24px] text-[#172026">
           <div className="w-1/2 flex flex-col gap-3">
             <h3 className="text-[20px] font-medium ]">100+</h3>
-            <p className="text-[#36485C] ">Lorem ipsum dolor sit</p>
+            <p className="text-muted-foreground  ">Lorem ipsum dolor sit</p>
           </div>
           <div className="w-1/2 flex flex-col gap-3">
             <h3 className="text-[20px] font-medium">800+</h3>
-            <p className="text-[#36485C]">Conse adipiscing elit</p>
+            <p className="text-muted-foreground ">Conse adipiscing elit</p>
           </div>
         </div>
 

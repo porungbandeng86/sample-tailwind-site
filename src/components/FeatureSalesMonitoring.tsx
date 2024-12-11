@@ -22,7 +22,7 @@ const FeatureSalesMonitoring = () => {
         <h3 className="font-medium text-[#0085FF] lg:text-[18px] ">
           Sales Monitoring
         </h3>
-        <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+        <h1 className="pt-[12px] text-2xl font-medium  lg:text-[42px] lg:leading-[58px]">
           Simplify your sales monitoring
         </h1>
         <Image
@@ -30,13 +30,13 @@ const FeatureSalesMonitoring = () => {
           alt="feature 1 image"
           className="pt-[24px]   sm:hidden"
         />
-        <p className="py-[24px] text-[#36485C] lg:text-[18px]">
+        <p className="py-[24px] text-muted-foreground  lg:text-[18px]">
           Stay on top of things and revamp your work process with our
           game-changing feature. Get a birds eye view with our customizable
           dashboard.
         </p>
 
-        <ul className="flex flex-col gap-y-3 lg:text-[18px]">
+        <ul className="flex flex-col gap-y-3 lg:text-[18px]  ">
           {items.map((item, index) => (
             <FeatureListItem key={index} text={item} />
           ))}

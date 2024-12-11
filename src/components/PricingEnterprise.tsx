@@ -11,7 +11,9 @@ const PricingEnterprise = () => {
           Perfect for big companies
         </p>
 
-        <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
+        <h2 className="pt-4 text-2xl font-medium lg:text-[32px] text-[#5F7896]">
+          Custom
+        </h2>
 
         <p className="pt-4 text-[16px] text-[#36485C] text-sm xl:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

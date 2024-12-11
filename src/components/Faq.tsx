@@ -9,10 +9,10 @@ const Faq = () => {
           <h3 className="text-[#EB2891] text-[14px] font-medium lg:text-base">
             Frequently Asked Questions
           </h3>
-          <h1 className="py-4 text-2xl xl:text-3xl  font-medium text-[#172026] ">
+          <h1 className="py-4 text-2xl xl:text-3xl  font-medium  ">
             Lets clarify some of your questions
           </h1>
-          <p className="text-[#36485C] pb-[24px]">
+          <p className="text-muted-foreground  pb-[24px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>

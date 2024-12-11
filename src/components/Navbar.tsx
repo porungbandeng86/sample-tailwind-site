@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Logo from '../../public/assets/Logo.svg';
 import User from '../../public/assets/User.svg';
 import Menu from '../../public/assets/Menu.svg';
+import { ThemeSwitcher } from './theme/theme-switcher';
 
 const navLinks = [
   { name: 'Features' },
@@ -19,10 +20,7 @@ const Navbar = () => {
         <Image src={Logo} alt="logo" />
         <div className="hidden lg:flex pl-[74px] gap-[56px]">
           {navLinks.map((item, index) => (
-            <p
-              key={index}
-              className="text-[#36485c] font-medium cursor-pointer"
-            >
+            <p key={index} className=" font-medium cursor-pointer">
               {item.name}
             </p>
           ))}
@@ -31,15 +29,14 @@ const Navbar = () => {
 
       {/* right side */}
       <div className="flex items-center gap-2">
-        <p className="hidden lg:block font-medium text-[#36485c] pr-[56px]">
+        {/* <p className="hidden lg:block font-medium text-[#36485c] pr-[56px]">
           Open an Account
-        </p>
+        </p> */}
+        <ThemeSwitcher />
 
         <div className="flex items-center gap-2">
           <Image src={User} alt="User Profile" />
-          <span className="hidden font-medium text-[#36485c] lg:block">
-            Sign in
-          </span>
+          <span className="hidden font-medium  lg:block">Sign in</span>
         </div>
 
         <Image src={Menu} alt="Menu" className="lg:hidden" />

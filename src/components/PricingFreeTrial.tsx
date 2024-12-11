@@ -13,7 +13,7 @@ const PricingFreeTrial = () => {
         </p>
 
         <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">
-          0$<span className="text-[#5F7896]">/mo</span>
+          <span className="text-[#5F7896]">0$/mo</span>
         </h2>
 
         <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896] text-sm xl:text-base  ">

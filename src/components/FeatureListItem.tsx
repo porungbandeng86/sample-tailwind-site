@@ -8,7 +8,7 @@ type Props = {
 
 const FeatureListItem = (props: Props) => {
   return (
-    <li className="flex items-center gap-x-2 text-[#36485C]">
+    <li className="flex items-center gap-x-2 text-muted-foreground ">
       <span>
         <Image src={Check} alt="Checkmark" />
       </span>

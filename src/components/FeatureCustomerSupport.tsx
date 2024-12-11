@@ -22,7 +22,7 @@ const FeatureCustomerSupport = () => {
         <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
           Customer Support
         </h3>
-        <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+        <h1 className="pt-[12px] text-2xl font-medium  lg:text-[42px] lg:leading-[58px]">
           Get in touch with your customers
         </h1>
         <Image
@@ -30,7 +30,7 @@ const FeatureCustomerSupport = () => {
           alt="feature 1 image"
           className="pt-[24px] sm:hidden"
         />
-        <p className="py-[24px] text-[#36485C] lg:text-[18px]">
+        <p className="py-[24px] text-muted-foreground lg:text-[18px]">
           Stay on top of things and revamp your work process with our
           game-changing feature. Get a birds eye view with our customizable
           dashboard.
